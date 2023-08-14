@@ -25,7 +25,7 @@ typedef struct List_
 void list_init(List *list, void (*destory)(void *data));
 void list_destory(List *list);
 int list_ins_next(List *list, ListElmt *element, const void *data);
-int list_rem_next(List *list, ListElmt *element, void **data);
+int list_rem_next(List *list, ListElmt *element);
 #define list_size(list)((list)->size)
 
 #define list_head(list)((list)->head)

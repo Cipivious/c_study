@@ -21,7 +21,7 @@ void list_destory(List *list)
   /*remove each element*/
   while (list_size(list) > 0)
     {
-    if (list_rem_next(list, NULL, (void **)&data) == 0 && list->destory != NULL)
+      if (list_rem_next(list, NULL) == 0 && list->destory != NULL)
       {
       list_destory(data);
       }
@@ -55,14 +55,13 @@ int list_ins_next(List *list, ListElmt *element, const void *data)
   return 0;
 }
 
-int list_rem_next(List *list, ListElmt *element, void **data)
+int list_rem_next(List *list, ListElmt *element)
 {
-  ListElmt * old_listelmt;
+  ListElmt* old_listelmt;
   if (list->size == 0)
     return -1;
   if (element == NULL)
     {
-      *data = list->head->data;
       old_listelmt = list->head;
       list->head = list->head->next;
 
@@ -73,8 +72,6 @@ int list_rem_next(List *list, ListElmt *element, void **data)
     {
       if (element->next = NULL)
         return -1;
-
-      *data = element->next->data;
       old_listelmt = element->next;
       element->next = element->next->next;
     }
