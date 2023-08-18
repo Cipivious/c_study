@@ -5,28 +5,26 @@
 #include "list.h"
 
 /*list init*/
-void list_init(List *list, void (*destory)(void *data))
+void list_init(List *list, void (*destroy)(void *data))
 {
   list->size = 0;
-  list->destory = destory;
+  list->destroy = destroy;
   list->head = NULL;
   list->tail = NULL;
 
   return;
 }
-/*list destory*/
-void list_destory(List *list)
+/*list destroy*/
+void list_destroy(List *list)
 {
   void *data;
   /*remove each element*/
   while (list_size(list) > 0)
     {
-      if (list_rem_next(list, NULL) == 0 && list->destory != NULL)
-      {
-      list_destory(data);
-      }
+      list_rem_next(list, NULL, (void**)&data);
     }
   memset(list, 0, sizeof(List));
+  return;
 }
 
 
@@ -55,13 +53,14 @@ int list_ins_next(List *list, ListElmt *element, const void *data)
   return 0;
 }
 
-int list_rem_next(List *list, ListElmt *element)
+int list_rem_next(List *list, ListElmt *element, void **data)
 {
   ListElmt* old_listelmt;
   if (list->size == 0)
     return -1;
   if (element == NULL)
     {
+      *data = list->head->data;
       old_listelmt = list->head;
       list->head = list->head->next;
 
@@ -70,8 +69,10 @@ int list_rem_next(List *list, ListElmt *element)
     }
   else
     {
-      if (element->next = NULL)
+      if (element->next == NULL)
         return -1;
+
+      *data = element->next->data;
       old_listelmt = element->next;
       element->next = element->next->next;
     }
