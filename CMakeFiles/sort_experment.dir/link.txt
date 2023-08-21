@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/sort_experment.dir/sort_experment.c.o CMakeFiles/sort_experment.dir/sort.c.o -o sort_experment 

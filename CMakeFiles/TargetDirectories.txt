@@ -1,0 +1,4 @@
+/home/yang/c_study/CMakeFiles/sort_lib.dir
+/home/yang/c_study/CMakeFiles/sort_experment.dir
+/home/yang/c_study/CMakeFiles/edit_cache.dir
+/home/yang/c_study/CMakeFiles/rebuild_cache.dir

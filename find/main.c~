@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void arr_show(int arr[], int length);
+int compare(const void *a, const void *b);
+int forward_search(int arr[], int length, int key);
+
+int main()
+{
+  int arr[10] = {2, 4, 7, 2, 8, 9, 4, 5, 3, 19};
+  int position;
+  arr_show(arr, 10);
+  qsort(arr, 10, sizeof(int), compare);
+  arr_show(arr, 10);
+  position = forward_search(arr, 10, 100);
+  printf("the position of 8 is : %d\n", position);
+
+  return 0;
+}
+
+void arr_show(int arr[], int length)
+{
+  for (int i = 0; i < length; i++)
+    {
+      printf("%d ", arr[i]);
+    }
+  printf("\n");
+  return;
+}
+
+int compare(const void *a, const void *b)
+{
+  return *(int*)a - *(int*)b;
+}
+
+int forward_search(int arr[], int length, int key)
+{
+  for(int i = 0; i < length; i++)
+    {
+      if (arr[i] == key)
+        {
+          return i;
+        }
+    }
+  return -1;
+}

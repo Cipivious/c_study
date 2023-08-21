@@ -1,0 +1,3 @@
+/home/yang/c_study/find/CMakeFiles/main.dir
+/home/yang/c_study/find/CMakeFiles/edit_cache.dir
+/home/yang/c_study/find/CMakeFiles/rebuild_cache.dir
