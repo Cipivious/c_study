@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+avltree.o: avltree.c.o
+.PHONY : avltree.o
+
+# target to build an object file
+avltree.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/avltree.c.o
+.PHONY : avltree.c.o
+
+avltree.i: avltree.c.i
+.PHONY : avltree.i
+
+# target to preprocess a source file
+avltree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/avltree.c.i
+.PHONY : avltree.c.i
+
+avltree.s: avltree.c.s
+.PHONY : avltree.s
+
+# target to generate assembly for a file
+avltree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/avltree.c.s
+.PHONY : avltree.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... avltree.o"
+	@echo "... avltree.i"
+	@echo "... avltree.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

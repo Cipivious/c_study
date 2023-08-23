@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yang/c_study/find/avltree.c" "CMakeFiles/main.dir/avltree.c.o" "gcc" "CMakeFiles/main.dir/avltree.c.o.d"
-  "/home/yang/c_study/find/main.c" "CMakeFiles/main.dir/main.c.o" "gcc" "CMakeFiles/main.dir/main.c.o.d"
+  "/home/yang/c_study/find/bistree.c" "CMakeFiles/bistree.dir/bistree.c.o" "gcc" "CMakeFiles/bistree.dir/bistree.c.o.d"
   )
 
 # Targets to which this target links.

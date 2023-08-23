@@ -1,4 +1,4 @@
-CMakeFiles/main.dir/main.c.o: /home/yang/c_study/find/main.c \
+CMakeFiles/main.dir/bistree.c.o: /home/yang/c_study/find/bistree.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -47,4 +47,4 @@ CMakeFiles/main.dir/main.c.o: /home/yang/c_study/find/main.c \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/yang/c_study/find/avltree.h
+ /home/yang/c_study/find/bistree.h /usr/include/assert.h

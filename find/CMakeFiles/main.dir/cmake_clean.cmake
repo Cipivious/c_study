@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/avltree.c.o"
+  "CMakeFiles/main.dir/avltree.c.o.d"
   "CMakeFiles/main.dir/main.c.o"
   "CMakeFiles/main.dir/main.c.o.d"
   "main"

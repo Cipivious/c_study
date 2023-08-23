@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/bistree.dir/bistree.c.o -o bistree 

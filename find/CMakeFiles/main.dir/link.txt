@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/main.dir/main.c.o -o main 
+/usr/bin/cc CMakeFiles/main.dir/main.c.o CMakeFiles/main.dir/avltree.c.o -o main 

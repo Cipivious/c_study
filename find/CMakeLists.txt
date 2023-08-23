@@ -9,7 +9,9 @@ project(sort_experiment)
 #add_library(sort_lib sort.c)
 
 # 将你的可执行文件与库链接
-add_executable(main main.c)
+add_executable(main main.c avltree.c)
+
+
 
 # 链接 sort_lib 库到可执行文件
 #target_link_libraries(sort_experiment sort_lib)
