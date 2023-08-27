@@ -1,0 +1,55 @@
+* Learning Org Mode
+
+** Basic Setup and Navigation
+   :LOGBOOK:
+   :END:
+   - Install Emacs.
+   - Open a file with .org extension.
+   - Move the cursor, scroll, open, and save files.
+
+** Headings and Outlining
+   - Create hierarchical structure with asterisks.
+   - Experiment with different levels of headings.
+   - Use `Tab` to collapse/expand subtrees.
+
+** Creating Lists and Tables
+   - Create bullet and numbered lists.
+   - Create tables using | and -.
+
+** Text Formatting
+   - Bold: bold
+   - Italic: italic
+   - Code: code
+
+** Links and References
+   - Internal links: link
+   - External links: [Google](http://www.google.com)
+
+** TODO Lists and Checkboxes
+   - TODO keywords: TODO, DONE
+   - Tasks: - [ ] Task 1, - [X] Task 2
+
+** Tags and Properties
+   - Tags: :tag1: :tag2:
+   - Properties: :PROPERTY: value
+
+** Clocking and Time Tracking
+   - Clock in: C-c C-x C-i
+   - Clock out: C-c C-x C-o
+
+** Agenda and Planning
+   - Agenda view:C-c a a
+   - SCHEDULED: <2023-08-15 Mon>
+   - DEADLINE: <2023-08-31 Wed>
+
+** Exporting and Publishing
+   - Export to HTML: C-c C-e HTML
+
+** Customization and Advanced Features
+   - Customize using M-x customize-group org
+   - Capturing templates, custom agenda views, etc.
+
+** Pratice and Community Resources
+   - Organize tasks and notes.
+   - Visit Org Mode manual: C-h i m Org RET
+   - Join Org Mode community forums.

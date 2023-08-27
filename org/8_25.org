@@ -1,0 +1,2 @@
+* TODO learn org-mode
+  DEADLINE: <2023-09-03 日> SCHEDULED: <2023-08-25 五>
