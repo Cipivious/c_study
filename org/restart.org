@@ -1,0 +1,54 @@
+* restart ubuntu
+
+** emacs config
+*** extension download
+**** method 
+from github or other ways
+**** core
+company
+sweeper
+yasnipped
+projectile
+neotree
+flycheck
+
+*** other config
+**** close menu-bar
+**** tool-bar-mode
+**** scroll-bar-mode
+**** global-linum-mode
+**** cursor-type
+**** electric-pair-mode
+**** open-init-file
+
+** clash config
+*** clash.exe
+*** mmdb
+*** link for usage
+
+** firefox config
+*** vimium-C
+*** ublock
+*** immersive
+
+** password
+*** transfer by wechat file transfer
+*** google
+*** firefox
+*** openai
+*** github
+*** zhihu
+*** CNSI
+
+** ssh usage
+*** produce ssh password
+*** pair with github
+
+** download tools
+*** gcc
+*** emacs
+*** dict
+*** git
+*** xclip
+*** npm
+*** tldr

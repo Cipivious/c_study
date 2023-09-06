@@ -1,0 +1,24 @@
+* dict-mode
+
+** mkdir
+*** call system command
+need stdlib
+char command[]
+make command by sprintf
+
+*** give direction name
+time
+time_t currentTime;  
+struct tm *localTime;  
+char date[20]; // YYYY-MM-DD  
+time(&currentTime);  
+localTime = localtime(&currentTime);  
+strftime(date, sizeof(date), "%Y-%m-%d:%H:%M:%S", localTime);  
+
+** recursion
+*** always 1
+*** produce command
+*** compare strings
+
+** shell-command
+we should use more C code, either use shell command

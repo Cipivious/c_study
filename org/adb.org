@@ -1,0 +1,15 @@
+* adb usage
+adb is useful tools for andriod. the full name of
+it is andriod debug briage.
+** adb kill-server
+
+** adb start-server
+
+** adb install package
+
+** adb uninstall package
+*** yigemuhan
+
+** adb stop-server
+
+** adb others
