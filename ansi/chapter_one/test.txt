@@ -1,0 +1,1 @@
+#include <stdio.h>\nint power(int m, int n);\n/* test power function */\nint main()\n{\n  int i;\n  for (i = 0; i < 10; ++i)\n    printf("%d %-3d %-6d\n", i, power(2,i), power(-3,i));\n  return 0;\n}\n/* power: raise base to n-th power; n >= 0 */\nint power(int base, int n)\n{\n  int i, p;\n  p = 1;\n  for (i = 1; i <= n; ++i)\n    p = p * base;\n  return p;\n}\n
