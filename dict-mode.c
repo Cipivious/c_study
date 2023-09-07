@@ -12,11 +12,15 @@ int main(void) {
     char date[20]; // YYYY-MM-DD  
     time(&currentTime);  
     localTime = localtime(&currentTime);  
-    strftime(date, sizeof(date), "%Y-%m-%d:%H:%M:%S", localTime);  
+    strftime(date, sizeof(date), "%Y-%m-%d", localTime);  
     sprintf(dir, "~/word/%s", date);
-    char command[130];
-    sprintf(command, "touch %s", dir);
-    system(command);
+    FILE *file = fopen(&dir[0],"r");
+    if (file == NULL)
+      {
+	char command[130];
+	sprintf(command, "touch %s", dir);
+	system(command);
+      }
     while (1) {  
         printf("Please enter your word: ");  
         scanf("%s", word);  
