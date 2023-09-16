@@ -21,6 +21,7 @@ int main(void) {
 	sprintf(command, "touch %s", dir);
 	system(command);
       }
+    fclose(file);
     while (1) {  
         printf("Please enter your word: ");  
         scanf("%s", word);  
