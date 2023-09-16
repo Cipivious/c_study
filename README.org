@@ -1,0 +1,11 @@
+* c_study_
+my process of C study
+
+** from last month, i have began my c'study, in  this month, i think i have improved a lot.
+*** first, i have learned a lot of knowledge about C
+*** secend, i have learned how to use emacs and i have a simple config of emacs made by myself now.
+*** third, i have learned some things about c struct, and i have writted them.
+
+i will stick to learn programming, if you also want to learn it, please join to me, and if you have some
+suggestions about everything, you can tell me.
+#+date: 2023:Sep:16
